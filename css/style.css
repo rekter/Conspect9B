@@ -10,6 +10,14 @@ em {
     color: yellowgreen;
 }
 
+.cold {
+    color: #00cbff;
+}
+
+.hot {
+    color: #ff6600;
+}
+
 ul {
     list-style: none;
 }
@@ -64,6 +72,10 @@ a {
 .back {
     font-size: 26px;
     text-align: center;
+}
+
+li {
+    list-style: none;
 }
 
 a.button7 {
