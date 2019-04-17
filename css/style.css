@@ -42,6 +42,21 @@ aside {
     color: green;
 }
 
+.rule {
+    padding-left: 14px;
+    border-left: 2px solid red;
+
+
+    color: red;
+}
+
+.author {
+    padding-left: 14px;
+    border-left: 2px solid blue;
+
+    color: blue;
+}
+
 a {
     text-decoration: none;
 }
