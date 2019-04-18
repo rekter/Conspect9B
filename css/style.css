@@ -3,6 +3,7 @@ body {
     font-size: 14px;
     line-height: 22px;
     font-family: 'Montserrat', sans-serif;
+    margin: o 30px;
 
 }
 
@@ -16,6 +17,10 @@ em {
 
 .hot {
     color: #ff6600;
+}
+
+.shadow {
+    color: #5c1cff;
 }
 
 ul {
@@ -33,14 +38,14 @@ aside {
 }
 
 .termins {
-    padding-left: 14px;
+    padding-left: 20px;
     border-left: 2px solid #6a2cce;
 
     color: #6a2cce;
 }
 
 .property {
-    padding-left: 14px;
+    padding-left: 20px;
     border-left: 2px solid rgb(14, 43, 104);
 
     color: rgb(14, 43, 104);
@@ -48,18 +53,34 @@ aside {
 
 .quest {
     color: green;
+    font-size: 15px;
 }
 
 .rule {
-    padding-left: 14px;
+    padding-left: 20px;
     border-left: 2px solid red;
 
 
     color: red;
 }
 
+.formula {
+    border: dotted #666 1px;
+    border-left:solid #ff5a00 7px;
+    margin:12px 42px;
+    padding:20px;
+    color:#345;
+    font-style:italic;
+    font-size:14px;
+    background:#fcfcfc;
+}
+
+.decimal {
+    list-style: decimal;
+}
+
 .author {
-    padding-left: 14px;
+    padding-left: 20px;
     border-left: 2px solid blue;
 
     color: blue;
@@ -74,9 +95,7 @@ a {
     text-align: center;
 }
 
-li {
-    list-style: none;
-}
+
 
 a.button7 {
     font-weight: 700;
