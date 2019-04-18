@@ -1,2 +1,2 @@
 # Conspect9B
-https://www.conspect9b.ml/index.html
+https://www.conspect9b.ml
