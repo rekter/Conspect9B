@@ -4,6 +4,10 @@ body {
     line-height: 22px;
     font-family: 'Montserrat', sans-serif;
     margin: o 30px;
+    background-image: url('../img/bg.png');
+}
+
+main {
 
 }
 
