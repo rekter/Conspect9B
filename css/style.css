@@ -12,12 +12,14 @@ body {
     height: 50px;
     font-size: 25px;
     margin: 2px;
+    cursor: pointer;
 }
 
 .textview {
-    width: 217;
+    width: 200px;
     margin: 5px;
-    font-size
+    font-size: 25px;
+    padding: 5px;
 }
 
 main {
