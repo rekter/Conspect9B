@@ -1,16 +1,16 @@
 
-    var a               = prompt('a =');
-    var b               = prompt('b =');
-    var c               = prompt('c =');
-    var d
-    var x1
-    var x2
-    var x
+var a = prompt('a =');
+var b = prompt('b =');
+var c = prompt('c =');
+var d
+var x1
+var x2
+var x
 
 function squareEq(a, b, c, d, x1, x2, x) {
 
     d = (Math.pow(b, 2)) + 4 * a * c
-        alert('Дискриминант' + " = " + d)
+    alert('Дискриминант' + " = " + d)
 
     if (d > 0) {
 
@@ -23,13 +23,13 @@ function squareEq(a, b, c, d, x1, x2, x) {
     } else if (d == 0) {
 
         alert('Дискриминант = 0, один корень');
-        x = (Math.abs(b)/(2*a));
+        x = (Math.abs(b) / (2 * a));
         alert('x' + ' = ' + x);
 
     } else if (d < 0) {
 
         alert('Нет корней');
-        
+
     }
 
 }
