@@ -16,7 +16,7 @@ function squareEq(a, b, c, d, x1, x2, x) {
 
         alert('Дискриминант > 0, два корня');
         x1 = ((Math.abs(b) + Math.sqrt(d) / (2 * a)));
-        x2 = ((Math.abs(b) - Math.sqrt(d) / (2 * 2)));
+        x2 = ((Math.abs(b) - Math.sqrt(d) / (2 * a)));
         alert('x1' + ' = ' + x1);
         alert('x2' + ' = ' + x2);
 
