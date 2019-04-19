@@ -9,7 +9,9 @@
 
 function squareEq(a, b, c, d, x1, x2, x) {
 
-    if ()
+    // if () {
+
+    // }
 
     d = (Math.pow(b, 2)) + 4 * a * c
     alert('Дискриминант' + " = " + d)
