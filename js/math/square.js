@@ -1,38 +1,53 @@
 
-var a = prompt('a =');
-var b = prompt('b =');
-var c = prompt('c =');
-var d
-var x1
-var x2
-var x
+// var a = prompt('a =');
+// var b = prompt('b =');
+// var c = prompt('c =');
+// var d
+// var x1
+// var x2
+// var x
+// var $
 
-function squareEq(a, b, c, d, x1, x2, x) {
+// function squareEq(a, b, c, d, x1, x2, x, $) {
 
-    d = (Math.pow(b, 2)) + 4 * a * c
-    alert('Дискриминант' + " = " + d)
+//     d = (Math.pow(b, 2)) - 4 * a * c
+//     alert('Дискриминант' + " = " + d)
 
-    if (d > 0) {
+//     if (d > 0) {
 
-        alert('Дискриминант > 0, два корня');
-        x1 = (Math.abs(b) + Math.sqrt(d)) / (2 * a);
-        x2 = (Math.abs(b) - Math.sqrt(d)) / (2 * a);
-        alert('x1' + ' = ' + x1);
-        alert('x2' + ' = ' + x2);
+//         alert('Дискриминант > 0, два корня');
+//         x1 = (Math.abs(b) + Math.sqrt(d)) / (2 * a);
+//         x2 = (Math.abs(b) - Math.sqrt(d)) / (2 * a);
+//         alert('x1 =' + (Math.abs(b) + '+' + Math.sqrt(d)) + '/' + '2' + '*' + a);
+//         alert('x1 =' + (Math.abs(b) + '-' + Math.sqrt(d)) + '/' + ('2' + '*' + a));
+//         alert('x1' + ' = ' + x1);
+//         alert('x2' + ' = ' + x2);
 
-    } else if (d == 0) {
+//     } else if (d == 0) {
 
-        alert('Дискриминант = 0, один корень');
-        x = (Math.abs(b) / (2 * a));
-        alert('x' + ' = ' + x);
+//         alert('Дискриминант = 0, один корень');
+//         x = (Math.abs(b) / (2 * a));
+//         alert('x' + ' = ' + x);
 
-    } else if (d < 0) {
+//     } else if (d < 0) {
 
-        alert('Нет корней');
+//         alert('Нет корней');
 
-    }
+//     }
 
-}
+// }
 
 
-squareEq(a, b, c, d, x1, x2, x)
+// squareEq(a, b, c, d, x1, x2, x)
+
+var test = 4;
+var aTest = Math.abs(test)
+
+alert('Hello, World!')
+
+alert(test + '=' + test - );
+alert(aTest - 2);
+alert(test + '=' + Math.pow(test, 2));
+alert(test + '=' + Math.sqrt(test));
+
+
