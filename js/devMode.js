@@ -7,6 +7,7 @@ function passwordType(pass, succpass) {
         window.location.replace('devMode.html')
     } else if (pass != succpass) {
         alert('Access denied');
+        window.location.href = 'www.conspect9b.ml/index.html'
     };
 };
 
