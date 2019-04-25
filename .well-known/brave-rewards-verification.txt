@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: conspect9b.ml
+Token: c6d90c53f2c9f7ab5d8f6d993f03b6288b0ec63c50e234bf1da27246fac3482b
